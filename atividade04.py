@@ -1,1 +1,0 @@
-# Escreva um numero e veja qual o seu antecessor e seu sucessor! 
