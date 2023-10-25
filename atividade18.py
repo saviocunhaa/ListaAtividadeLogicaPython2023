@@ -7,3 +7,13 @@
 #
 # – Não existe valor maior, os dois são iguais
 
+n1 = int(input("digite um numero"))
+n2 = int(input("digite um numero"))
+
+if n1>n2:
+    print(f"{n1} maior")
+elif n2>n1:
+    print(f"{n2} maior")
+else:
+    print(f"{n1}={n2}")
+
