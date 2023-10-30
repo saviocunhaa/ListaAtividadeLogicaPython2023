@@ -4,6 +4,7 @@
 
 km = float(input("digite a km"))
 
+#comparação de condição para validação da logica aplicada de acordo com o resultado
 if km >= 200:
     valorPassagem = km * 0.50
     print(f"Valor da Passagem é: R$ {valorPassagem}")

@@ -6,7 +6,3 @@ numero = int(input("digite um numero: "))
 for tabuada in range(10):
     resultado = tabuada * numero
     print(f"{tabuada} * {numero} = {resultado}")
-
-
-    
-

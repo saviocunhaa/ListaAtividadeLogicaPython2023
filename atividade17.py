@@ -5,16 +5,20 @@
 
 from datetime import date
 
-data = date.today()
-ano = data.year
+data = date.today() # recebo a data do dia automatico 
+ano = data.year # retiro apenas o ano da data da linha anterior
 
-dataNascimento = int(input("digite o ano de nascimento"))
+dataNascimento = int(input("digite o ano de nascimento")) #receber a data de nascimento
 
+#calcular a idade
 idade = ano - dataNascimento
 
+
+#proceso de compraração
 if idade > 18:
     alistamento = idade - 18
     print(f"passou do alistamento {alistamento} anos")
+#processo de compraração
 elif idade <= 18:
     alistamento = 18 - idade
     print(f"BEM VINDO A GUERRA, ALISTAMENTO MILITAR SERÁ EM: {alistamento} anos")

@@ -5,6 +5,7 @@ n1 = int(input("digite o valor 1"))
 n2 = int(input("digite o valor 2"))
 n3 = int(input("digite o valor 3"))
 
+#aqui temos uma condição ao qual entra a tabela verdade E(and) onde compara todos os 3 numeros digitados!
 if n1 > n2 and n1 > n3:
     print(f"{n1} é maior")
 elif n2>n1 and n2>n3:

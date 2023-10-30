@@ -4,11 +4,11 @@
 # DICA ESTUDEM A BIBLIOTECA PYTHON RANDOM
 
 
-import random
+import random # importando a blioteca random (gera numeros randomicos)
 
-numeroAleatorio = random.randint(0, 5)
+numeroAleatorio = random.randint(0, 5) # cria numeros candomicos de 0 a 5 (0, 5)
 numeroUsuario = int(input("digite um valor 0 até 5"))
-
+# comparar os Numeros 
 if numeroUsuario <= 5:
     if numeroAleatorio == numeroUsuario:
         print(f"{numeroUsuario} = {numeroAleatorio}")
