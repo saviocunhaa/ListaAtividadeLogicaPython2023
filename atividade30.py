@@ -13,7 +13,7 @@ for i in range(1,5):
     sexo = str(input("digite M para MASCULINO \n F para FEMININO: \n "))
     sexo = sexo.upper()
     
-    somaIdade += idade
+    somaIdade += idade #somaidade = 0 + 28
 
     if sexo == "M" and idade >= maiorIdadeHomem:
         maiorIdadeHomem = idade
